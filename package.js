@@ -1,8 +1,9 @@
 Package.describe({
   name: 'fongandrew:env-setting',
-  summary: 'Helper to first environment variable for value before Meteor ' +
+  summary: 'Helper to check environment variable for value before Meteor ' +
            'settings',
-  version: '0.1.0'
+  version: '0.1.0',
+  git: 'https://github.com/fongandrew/meteor-env-setting.git'
 });
 
 Package.onUse(function(api) {
